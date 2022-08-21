@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2438b35444.js" crossorigin="anonymous"></script>
+    <title>Weather</title>
+</head>
+<body >
+    <div class="weather-app">
+        <div class="search">
+            <input type="search" name="search" class="search-city" placeholder="Type name of city..." id="name-city">
+            <button type="submit" name="city" class="search-city-button" value="search-city"><i class="fa-brands fa-searchengin"></i></button>
+            <button type="submit" name="location"class="search-location-button" value="search-location"><i class="fa-solid fa-map-location"></i></button>
+        </div>
+        <div class="title">
+            <h1>Odesa</h1>
+            <h3>Saturday, 18:00</h3>
+        </div>
+        <div class="temperature-view">
+            <div><img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"></div>
+            <div id="temp">30 °</div>
+            <div class="units">
+                C | F
+            </div>
+            <h5>Clear</h5>
+        </div>
+        <div class="weather=details row">
+            <div class="col" id="feel-temp"> Feels like: 35</div>
+            <div class="col" id="wind"> Wind: 3 m/s</div>
+            <div class="col" id="visib"> Visibility: 10km</div>
+        </div>
+        <div class="weather=details row">
+            <div class="col" id="humidity"> Humidity: 53%</div>
+            <div class="col" id="pressure"> Pressure: 1008hPa</div>
+            <div class="col" id="dew-point"> Dew point: 17°C</div>
+        </div>
+        Cleatude by <a href="#" target="_blank"></a>
+    </div>
+<script src="src/weather-app.js"></script>    
+</body>
+</html>

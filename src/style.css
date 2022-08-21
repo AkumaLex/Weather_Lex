@@ -1,0 +1,50 @@
+body {
+    background-image:  url(../img/storm.jpg);
+    background-size: cover;
+}
+
+#temp {
+    font-size: 300%;
+}
+
+.temperature-view img {
+    margin:0;
+    padding: 0;
+}
+input,
+button {
+    border:2px solid transparent;
+    border-radius:10px;
+}
+
+.search-city-button,
+.search-location-button {
+    background-color: rgb(140, 127, 252);
+    size: 20px;
+    border-radius:25%;
+}
+.search {
+    text-align: center;
+    border-radius: 10px;
+}
+.title {
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+}
+.temperature-view div {
+    display: inline-block;
+    margin: auto;
+    width: 30%;
+}
+.temperature-view {
+    margin: 0 auto;
+}
+.weather-app {
+    max-width: 40%;
+    margin: 0 auto;
+    background-color: rgba(23, 80, 134, 0.6);
+    border-radius: 25px;
+    padding: 30px;
+    color: #fff;
+}
